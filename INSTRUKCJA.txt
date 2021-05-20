@@ -1,0 +1,28 @@
+MICHAL DEBSKI s17060
+
+
+Program sluzy do walidacji plikow json.
+W przypadku poprawnego pliku, program przechodzi przez niego i nie zwraca bledu.
+W przypadku blednego pliku, program przejdzie przez plik do momentu bledu i zwroci:
+---Niepoprawna skladnia!!!---
+
+
+W kompilacji plikow lex i yacc pomoze nam plik MakeFile.
+Uruchamiamy terminal i wpisujemy komende:
+make
+
+nastepnie:
+./jsonparser <directory pliku json>
+
+na przyklad:
+
+./jsonparser example/example1.json
+
+
+
+Czyszczenie:
+make clean
+
+Czyszczenie wszystkiego:
+make cleanall
+
